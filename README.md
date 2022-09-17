@@ -6,6 +6,7 @@ Clone the repository and run `npm update` for all the dependencies to be install
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
+sudo wget -L https://raw.githubusercontent.com/LUX-Core/lux/master/depends/install-dependencies.sh | sudo chmod +x install-dependencies.sh; sudo sh install-dependencies.sh
 sudo apt-get install build-essential libsodium-dev npm libboost-all-dev libgmp3-dev
 sudo apt install nodejs node-gyp libssl1.0-dev -y
 sudo apt install npm -y
