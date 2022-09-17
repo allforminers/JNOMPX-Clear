@@ -4,6 +4,8 @@
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install build-essential libsodium-dev npm libboost-all-dev libgmp3-dev
 sudo apt install nodejs node-gyp libssl1.0-dev -y
 sudo apt install npm -y
