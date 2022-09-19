@@ -35,7 +35,20 @@ bind 127.0.0.1
 
 git clone https://github.com/allforminers/JNOMPX-Clear.git jnompx
 cd jnompx
+npm update
 npm install
+
+node init.js
+
+
+```
+
+```bash
+sudo apt-get install build-essential libsodium-dev npm
+sudo npm install n -g
+sudo n v9
+
+```
 ```
 
 
